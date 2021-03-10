@@ -1,5 +1,5 @@
 const quotes = [
-	'예를 들어 업무 과정에서 이메일을 보내거나 문자메시지를 보내는 경우는 물론이고, 직장에서 각종 보고서나 자료를 작성할 때도 반드시 오타 여부를 체크하는 게 좋다. 오타가 몇개 정도 있다고 해서 받아보는 측이 내용을 이해 못 하는 것은 아니지만, 이러한 오타를 보게 되면 내용과는 별개로 문서 작성자나 발신자의 진정성이나 신뢰성이 꽤 손상을 입는 것이 현실이다.'
+	'예를 들어 업무 과정에서 이메일을 보내거나 문자메시지를 보내는 경우는 물론이고, 직장에서 각종 보고서나 자료를 작성할 때도 반드시 오타 여부를 체크하는 게 좋다. 오타가 몇개 정도 있다고 해서 받아보는 측이 내용을 이해 못 하는 것은 아니지만, 이러한 오타를 보게 되면 내용과는 별개로 문서 작성자나 발신자의 진정성이나 신뢰성이 꽤 손상을 입는 것이 현실이다.',
 	'나는 기린 그림을 그렸고, 옆 친구도 기린 그림을 그렸다',
 	'There is nothing more deceptive than an obvious fact.',
 	'I ought to know by this time that when a fact appears to be opposed to a long train of deductions it invariably proves to be capable of bearing some other interpretation.',
