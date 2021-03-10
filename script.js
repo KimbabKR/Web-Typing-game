@@ -17,3 +17,29 @@ let startTime = Date.now();
 const quoteElement = document.getElementById('quote');
 const messageElement = document.getElementById('message');
 const typedValueElement = document.getElementById('typed-value');
+
+document.getElementById('start').addEventListener('click', () => {
+  
+  const quoteIndex = Math.floor(Math.random() * quotes.length);
+  const quote = quotes[quoteIndex];
+  
+  words = quote.split(' ');
+  
+  wordIndex = 0;
+
+  
+  
+  const spanWords = words.map(function(word) { return });
+  
+  quoteElement.innerHTML = spanWords.join('');
+  
+  quoteElement.childNodes[0].className = 'highlight';
+  
+  messageElement.innerText = '';
+
+  typedValueElement.value = '';
+  
+  typedValueElement.focus();
+    
+  startTime = new Date().getTime();
+});
