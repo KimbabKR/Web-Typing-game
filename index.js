@@ -74,6 +74,6 @@ typedValueElement.addEventListener('input', (e) => {
 		typedValueElement.className = '';
 	} else {
 		
-		typedValueElement.className = 'error';
+		typedValueElement.className = 'is-invalid';
 	}
 });
