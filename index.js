@@ -1,10 +1,10 @@
 const quotes = [
 	'개이득.',
 	'나는 기린 그림을 그렸고, 옆 친구도 기린 그림을 그렸다',
-	'There is nothing more deceptive than an obvious fact.',
-	'I ought to know by this time that when a fact appears to be opposed to a long train of deductions it invariably proves to be capable of bearing some other interpretation.',
-	'I never make exceptions. An exception disproves the rule.',
-	'What one man can invent another can discover.',
+	'죽을 약 곁에 살 약이 있다.',
+	'사람은 어렸을 때부터 좋은 습관을 들이는 것이 중요하다.',
+	'꿩 먹고 알 먹는다.',
+	'기와 한 장 아껴서 대들보 썩힌다.',
 	'Nothing clears up a case so much as stating it to another person.',
 	'Education never ends, Watson. It is a series of lessons, with the greatest for the last.',
 ];
