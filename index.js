@@ -6,7 +6,8 @@ const quotes = [
 	'꿩 먹고 알 먹는다.',
 	'기와 한 장 아껴서 대들보 썩힌다.',
 	'앉아서 주고 서서 받는다.',
-	'Education never ends, Watson. It is a series of lessons, with the greatest for the last.',
+	'십 년 묵은 체증이 내리다',
+	'한 달 잡고 보름은 못 본다'
 ];
 
 // array for storing the words of the current challenge
@@ -25,7 +26,7 @@ document.getElementById('start').addEventListener('click', function () {
 
 	const quoteIndex = Math.floor(Math.random() * quotes.length);
 	const quote = quotes[quoteIndex];
-
+	
 	words = quote.split(' ');
 
 	wordIndex = 0;
@@ -33,7 +34,7 @@ document.getElementById('start').addEventListener('click', function () {
 	const spanWords = words.map(function(word) { return `<span>${word} </span>`});
 
 	quoteElement.innerHTML = spanWords.join('');
-
+	typedValueElement.className = ''
 	quoteElement.childNodes[0].className = 'highlight';
 
 	messageElement.innerText = '';
@@ -57,6 +58,7 @@ typedValueElement.addEventListener('input', (e) => {
 		const elapsedTime = new Date().getTime() - startTime;
 		const message = `축하드립니다! 당신은 ${elapsedTime / 1000} 초 안에 완료하셨습니다.`;
 		typedValueElement.value = ''
+		typedValueElement.className = 'btn btn-success'
 		messageElement.innerText = message;
 	} else if (typedValue.endsWith(' ') && typedValue.trim() === currentWord) {
 
@@ -75,6 +77,6 @@ typedValueElement.addEventListener('input', (e) => {
 		typedValueElement.className = '';
 	} else {
 		
-		typedValueElement.className = 'is-invalid';
+		typedValueElement.className = 'btn-danger';
 	}
 });
