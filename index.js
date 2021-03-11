@@ -56,6 +56,7 @@ typedValueElement.addEventListener('input', (e) => {
 
 		const elapsedTime = new Date().getTime() - startTime;
 		const message = `축하드립니다! 당신은 ${elapsedTime / 1000} 초 안에 완료하셨습니다.`;
+		typedValueElement.value = ''
 		messageElement.innerText = message;
 	} else if (typedValue.endsWith(' ') && typedValue.trim() === currentWord) {
 
