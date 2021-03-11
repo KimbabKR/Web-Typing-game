@@ -5,7 +5,7 @@ const quotes = [
 	'사람은 어렸을 때부터 좋은 습관을 들이는 것이 중요하다.',
 	'꿩 먹고 알 먹는다.',
 	'기와 한 장 아껴서 대들보 썩힌다.',
-	'Nothing clears up a case so much as stating it to another person.',
+	'앉아서 주고 서서 받는다.',
 	'Education never ends, Watson. It is a series of lessons, with the greatest for the last.',
 ];
 
